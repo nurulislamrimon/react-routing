@@ -8,7 +8,6 @@ const History = () => {
             .then(res => res.json())
             .then(datas => setUsers(datas))
     }, [])
-    console.log(users);
 
     return (
         <div>
