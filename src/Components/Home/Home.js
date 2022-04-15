@@ -1,4 +1,5 @@
 import React from 'react';
+import Post from '../Post/Post';
 
 const Home = () => {
     return (
@@ -7,6 +8,7 @@ const Home = () => {
             <p>Hello Home page</p>
             <p>Hello Home page</p>
             <p>Hello Home page</p>
+
         </div>
     );
 };
